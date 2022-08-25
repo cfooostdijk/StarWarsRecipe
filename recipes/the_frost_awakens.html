@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Another Star Wars Recipe !!!</title>
+    <link rel="stylesheet" href="StylesStarWars.css">
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    
+    <div style="background-color: rgba(255, 0, 0, 0.4); font-size: 35px; color: rgb(224, 223, 223)">
+      <p>The Frost Awakens</div>p>
+    </div>
+    
+    <img src="../images/frost_awakens.webp" class="img-centro" alt='Baby Yoda' style="width:600px;height:600px">
+    
+    <div class="banner">
+      <h3>Description</h3>
+      <p>What could melt the slick, seemingly frosty demeanor of a stoic storm trooper? Well, for starters, Ryan Morris, the general manager of Venkman’s in Atlanta, thinks one must start with rum. Of course! Sometimes, when the weather calls for it in the balmy South, he likes to run this tropically tweaked tipple through a slushy machine. But you can shake it, too.</p>
+    </div>
+
+    <div style="background-color: rgba(255, 0, 0, 0.4); color: rgb(224, 223, 223)">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 1/2 oz Bayou rum</li>
+        <li>2 oz Coconut milk</li>
+        <li>2 oz Pineapple juice</li>
+        <li>2 oz Fresh orange juice</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Add all the ingredients into a shaker with ice and shake.</li>
+        <li>Strain into a Collins glass over ice.</li>
+      </ol>
+      <br>
+    </div>
+
+    <footer style="color: rgb(224, 223, 223)">
+      <address>
+        <br>
+        Written by Little Padawan.<br>
+        Visit us at: Little Padawan<br>
+        StarWars.html<br>
+        AR<br>
+        <br>
+        <a href="mailto:cfo.oostdijk@gmail.com" title="Send me an email">Send email</a>
+      </address>  
+      <p style="text-align: right;"><cite>HTML Practice</cite> by Little Padawan. Written in 2022.</p>
+    </footer> 
+  </body>
+</html>

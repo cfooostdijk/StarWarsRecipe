@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Another Star Wars Recipe !!!</title>
+    <link rel="stylesheet" href="StylesStarWars.css">
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    
+    <div style="background-color: rgba(255, 0, 0, 0.4); font-size: 35px; color: rgb(224, 223, 223)">
+      <p>Rancor's Toothpick</div>p>
+    </div>
+    
+    <img src="../images/rancor_toothpick.webp" class="img-centro" alt='Baby Yoda' style="width:600px;height:600px">
+    
+    <div class="banner">
+      <h3>Description</h3>
+      <p>A well-made cocktail can take you from cranky to calm in a sip. This drink created by the talented Timothy Miner of Brooklyn, N.Y.’s beloved Long Island Bar promises to do such things, even if you’re feeling as rattled as a gnarly-toothed rancor. Miner actually created the cocktail as a nod to his brother-in-law, who’s fond of giving family members disposition-appropriate “Star Wars” nicknames. “My brother-in-law Joey Carnevale is called The Rancor because he can be, well, unpredictable. He’s also particularly fond of a well-mixed bourbon cocktail.”</p>
+    </div>
+
+    <div style="background-color: rgba(255, 0, 0, 0.4); color: rgb(224, 223, 223)">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 1/2 ounces Old Forester Signature 100-proof bourbon</li>
+        <li>1 ounce Cynar</li>
+        <li>1 ounce sweet vermouth</li>
+        <li>2 dashes mole bitters</li>
+        <li>Garnish: orange peel</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Add the bourbon, Cynar, sweet vermouth and mole bitters into a mixing glass with ice and stir until well-chilled.</li>
+        <li>Strain into a frozen double Old Fashioned glass over 1 large ice cube..</li>
+        <li>Express the oil from a large orange peel over the top of the drink, and discard the peel.</li>
+      </ol>
+      <br>
+    </div>
+
+    <footer style="color: rgb(224, 223, 223)">
+      <address>
+        <br>
+        Written by Little Padawan.<br>
+        Visit us at: Little Padawan<br>
+        StarWars.html<br>
+        AR<br>
+        <br>
+        <a href="mailto:cfo.oostdijk@gmail.com" title="Send me an email">Send email</a>
+      </address>  
+      <p style="text-align: right;"><cite>HTML Practice</cite> by Little Padawan. Written in 2022.</p>
+    </footer> 
+  </body>
+</html>

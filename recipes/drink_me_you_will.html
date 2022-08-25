@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Another Star Wars Recipe !!!</title>
+    <link rel="stylesheet" href="StylesStarWars.css">
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    
+    <div style="background-color: rgba(255, 0, 0, 0.4); font-size: 35px; color: rgb(224, 223, 223)">
+      <p>Drink Me, You Will!</div>p>
+    </div>
+    
+    <img src="../images/drink_me.webp" class="img-centro" alt='Baby Yoda' style="width:600px;height:600px">
+    
+    <div class="banner">
+      <h3>Description</h3>
+      <p>Bryan Gall of Portland, Ore.'s Bacchus Bar at Kimpton Hotel Vintage uses a bright bunch of smashed basil to give this Yoda-inspired drink its requisite gasp of green, a hue reminiscent of the Jedi master’s lovely skin tone. Sage simple syrup is a natural nod to Yoda’s wisdom, and a couple of those leaves make a nice, perky Yoda ear garnish too.</p>
+    </div>
+
+    <div style="background-color: rgba(255, 0, 0, 0.4); color: rgb(224, 223, 223)">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 1/2 ounces Calvados</li>
+        <li>1 ounce apple cider</li>
+        <li>1/2 ounce sage simple syrup*</li>
+        <li>1/2 ounce lemon juice, freshly squeezed</li>
+        <li>6 basil leaves</li>
+        <li>Garnish: sage leaves</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+        <li>Add the Calvados, apple cider, sage simple syrup, lemon juice and basil leaves to a shaker with ice and shake until well-chilled.</li>
+        <li>Double-strain into a Martini glass.</li>
+        <li>Garnish with 2 fresh sage leaves. If possible, clip to either side of the glass using miniature clothespins or a pick.</li>
+      </ol>
+      <br>
+    </div>
+
+    <footer style="color: rgb(224, 223, 223)">
+      <address>
+        <br>
+        Written by Little Padawan.<br>
+        Visit us at: Little Padawan<br>
+        StarWars.html<br>
+        AR<br>
+        <br>
+        <a href="mailto:cfo.oostdijk@gmail.com" title="Send me an email">Send email</a>
+      </address>  
+      <p style="text-align: right;"><cite>HTML Practice</cite> by Little Padawan. Written in 2022.</p>
+    </footer> 
+  </body>
+</html>
