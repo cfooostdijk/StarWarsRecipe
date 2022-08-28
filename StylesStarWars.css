@@ -46,13 +46,13 @@
 
       /* ACA CUSTOMIZAMOS EL COLOR DE LOS LINKS */
       a:link {
-        color: green;
+        color: rgb(0, 0, 0);
         background-color: transparent;
         text-decoration: none;
       }
       
       a:visited {
-        color: pink;
+        color: green;
         background-color: transparent;
         text-decoration: none;
       }
